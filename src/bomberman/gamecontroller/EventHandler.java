@@ -37,7 +37,7 @@ class keyReleaseHanlder implements javafx.event.EventHandler<KeyEvent>{
     }
     @Override
     public void handle(KeyEvent evt) {
-        player.move(0,Direction.LEFT);
+        // player.move(0,Direction.LEFT);
         System.out.println("The key released is : "+evt.getText()+" with keycode "+evt.getCode().getName());
     }
 }
